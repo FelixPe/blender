@@ -339,6 +339,11 @@ bool GHOST_NDOFManager::setDevice(ushort vendor_id, ushort product_id)
           device_type_ = NDOF_SpaceMouseEnterprise;
           break;
         }
+        case 0xC641:
+        {
+          device_type_ = NDOF_SpaceMouseModule
+          break;
+        }
         case 0xC664:
         case 0xC668: {
           device_type_ = NDOF_KeyboardPro;

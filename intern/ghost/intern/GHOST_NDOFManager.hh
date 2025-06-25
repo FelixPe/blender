@@ -29,7 +29,8 @@ enum NDOF_DeviceT {
   /* Older devices. */
   NDOF_SpacePilot,
   NDOF_Spaceball5000,
-  NDOF_SpaceTraveler
+  NDOF_SpaceTraveler,
+  NDOF_SpaceMouseModule
 
 };
 
